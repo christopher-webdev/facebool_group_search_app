@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // App Access Token
-const accessToken = '135602422829610|0f5c7de4a5cd96ace4a99bfb2d7a7d05';
+const accessToken = '1356024228296106|0f5c7de4a5cd96ace4a99bfb2d7a7d05';
 
 // Search route
 app.get('/search', async (req, res) => {
